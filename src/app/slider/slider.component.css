@@ -1,0 +1,79 @@
+/* src/app/slider/slider.component.css */
+.carousel {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .carousel img {
+    width: fit-content;
+    height: 400px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #007bff;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* src/app/slider/slider.component.css */
+.carousel {
+    position: relative;
+    max-width: fit-content;
+    height: 400px; /* Set a fixed height */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .carousel-inner {
+    width: 100%; /* Ensure the inner content takes the full width */
+    height: 400px; /* Ensure the inner content takes the full height */
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire slide */
+  }
+  
+  /* Rest of the CSS remains the same */
+  /* ... */
+  

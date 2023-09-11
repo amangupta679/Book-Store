@@ -1,12 +1,16 @@
-.container {
+/* Abhinav */
+
+
+ .container {
     margin-top: 5rem;
-    background-color: white;
+    background-color:#FFFADD;
     border-radius: 1rem;
     padding: 1rem;
 
     box-shadow: horizontal-offset vertical-offset blur spread color;
 
     /* Example box shadow: */
+
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -15,6 +19,7 @@
     font-family: cursive;
     font-size: 3rem;
     margin: 1rem;
+   
 }
 
 .container p {
@@ -32,6 +37,7 @@
     padding: 2rem;
     margin: 0px auto;
     /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); */
+
     border-radius: 1rem;
 }
 
@@ -42,15 +48,18 @@ button {
 .p-new-user {
     margin: 20px auto;
     cursor: pointer;
+    
 }
 
 .p-new-user a {
     text-decoration: none;
-    color: blue;
+    color: #F0F0F0;
     font-size: 1.2rem;
     transition: all 0.5s;
-    border-radius: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
     padding: 10px 20px;
+    font-weight: bold;
 }
 
 .p-new-user a:hover {
@@ -58,5 +67,98 @@ button {
     color: black;
     padding: 5px 10px;
     background-color: #ED7B7B;
-    color: white;
+    color: #FFFADD;
+} 
+
+
+ /* Aman */
+
+
+  
+ .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for 3D effect */
+  }
+  
+  .quote {
+    font-size: 18px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow for 3D effect */
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow for 3D effect */
+    transform: translateZ(10px); /* Add a slight 3D transform */
+  }
+  
+
+  .form-floating{
+    font-weight: bold;
+    
+  }
+
+/* Apply styles to the container when hovering over the form */
+.form-inside:hover {
+    transform: scale(1.05); /* Add a zoom effect on hover */
+    transition: transform 0.3s ease; /* Smoothly transition the zoom effect */
+    background-color: rgba(0, 0, 0, 0.1); /* Add a faded background color on hover */
+  }
+  
+  /* Style the button on hover */
+  .form-inside button:hover {
+    background-color: #21a2a6; /* Change the background color of the button on hover */
+    color: white; /* Change the text color of the button on hover */
+  }
+  
+  /* Style the New User link on hover */
+  .p-new-user a:hover {
+    color: #1ebec3; /* Change the link color on hover */
+  }
+  
+  .container {
+    margin-top: 100px; /* Add 100px margin from the top */
+   background-color: rgba(255, 255, 255, 0.066); /*Set the background color with transparency */
+    padding: 20px; /* Add padding for content within the div */
+    border: 1px solid #ccc; /* Optional: Add a border for visibility */
+  }
+  
+
+
+  /* Add hover effect and zoom effect to labels */
+.label-zoom-on-hover {
+  transition: transform 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+.label-zoom-on-hover:hover {
+  transform: scale(1.1); /* Add a zoom effect on hover (scale to 110%) */
+  color: #007bff; /* Change text color on hover */
+}
+
+
+/* .background-image{
+  background-image: url('../../../assets/WELCOMEBACKGROUND.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+}  */
+
+
+.main-one{
+  min-height: 100vh;
+  min-width: 100vw;    
+  background-image: url('../../../assets/WELCOMEBACKGROUND.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  padding: 50px 0 0;
 }

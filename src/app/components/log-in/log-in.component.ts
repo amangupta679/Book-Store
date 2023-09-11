@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { LoginService } from 'src/app/services/login.service';
 import { NavbarService } from 'src/app/services/navbar.service';
 
+
 @Component({
   selector: 'app-log-in',
   templateUrl: './log-in.component.html',

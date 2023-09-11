@@ -1,3 +1,83 @@
-.bg-changer {
-    background-color: #DFCCFB;
-}
+.navbar {
+    background: linear-gradient(to bottom, #8ECDDD, #8ECDDD);
+  }
+
+  .nav-link {
+    font-size: 16px;
+    color: #f7f6f6;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease, background 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+    background: transparent;
+  }
+
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #213555;
+  }
+  
+  .dropdown-item {
+    color: #333;
+    padding: 8px 15px;
+    transition: background 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #5C8374;
+  }
+  
+
+  .navbar {
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background: #5C8374;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-brand:hover {
+    color: #007bff;
+  }
+  
+  .dropdown-menu {
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+  
+  .navbar-toggler-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-toggler.collapsed .navbar-toggler-icon {
+    transform: rotate(0deg);
+  }
+  
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    transform: rotate(90deg);
+  }
+  
+
+
+  /* Adding color */
+
+ 

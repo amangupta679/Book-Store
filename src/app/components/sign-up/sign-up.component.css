@@ -1,6 +1,13 @@
-.container {
-    margin-top: 5rem;
+.welcomePage{
+    min-height: 100vh;
+    min-width: 100vw;    
+    background-image: url('../../../assets/WELCOMEBACKGROUND.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    padding: 50px 0 0;
 }
+
 
 .form-inside {
     width: 50%;
@@ -12,8 +19,8 @@
 
 button {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-}
 
+}
 .p-new-user {
     margin: 20px auto;
     cursor: pointer;
@@ -35,3 +42,8 @@ button {
     background-color: #ED7B7B;
     color: white;
 }
+/* Aman  */
+
+
+
+  

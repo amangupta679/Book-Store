@@ -1,0 +1,37 @@
+
+
+<div class="container">
+
+
+    <div class="carousel">
+      <div class="carousel-inner">
+        <div *ngFor="let slide of slides; let i = index" class="carousel-item" [class.active]="i === currentIndex">
+          <!-- <img [src]="slide.imageUrl" [alt]="'Slide ' + (i + 1)"> -->
+          <img src="https://th.bing.com/th?id=ORMS.cb6aa6f29e1a06e659a57122f551be4e&pid=Wdp" alt="">
+        </div>
+     
+      </div>
+      <div class="carousel-inner">
+        <!-- <div *ngFor="let slide of slides; let i = index" class="carousel-item" [class.active]="i === currentIndex"> -->
+          <div>
+          <!-- <img [src]="slide.imageUrl" [alt]="'Slide ' + (i + 1)"> -->
+          <img src="https://www.bing.com/images/search?view=detailV2&ccid=bPBCgvp9&id=FA413CFDED6C6E41B1ECBC98FE91FB860AD6A827&thid=OIP.bPBCgvp9N0SUbVYJnBg2IQHaEo&mediaurl=https%3a%2f%2fwallpapercave.com%2fwp%2fwp2599594.jpg&exph=1200&expw=1920&q=images&simid=608004306940420483&FORM=IRPRST&ck=250B69C764874AC0E593E3547E12EBC4&selectedIndex=9" alt="">
+        </div>
+     
+      </div>
+      <a class="carousel-control-prev" (click)="prevSlide()">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" (click)="nextSlide()">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      
+      <ol class="carousel-indicators">
+        <li *ngFor="let slide of slides; let i = index" [class.active]="i === currentIndex" (click)="goToSlide(i)"></li>
+      </ol>
+    </div>
+  </div>
+  
